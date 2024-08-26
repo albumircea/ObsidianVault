@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "textFontFamily": "JetBrains Mono,Arial",
+  "monospaceFontFamily": "JetBrains Mono,Arial",
+  "interfaceFontFamily": "",
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "baseFontSize": 11,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "dashboard"
+  ]
+}

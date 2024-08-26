@@ -1,0 +1,38 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "05 - Metadata/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "03 - Finance",
+      "template": "05 - Metadata/Templates/Default.md"
+    },
+    {
+      "folder": "04 - Journaling/03-Monthly",
+      "template": "05 - Metadata/Templates/Monthly.md"
+    },
+    {
+      "folder": "04 - Journaling/04-Quarterly",
+      "template": "05 - Metadata/Templates/Quarterly.md"
+    },
+    {
+      "folder": "04 - Journaling/01-Daily",
+      "template": "05 - Metadata/Templates/Daily.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": []
+}

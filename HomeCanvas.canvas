@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"bcaab3a5aaa7fbe8","type":"group","x":-1860,"y":-720,"width":1720,"height":760,"label":"Untitled group"},
+		{"id":"8febe09732e23cdd","x":-1395,"y":-565,"width":250,"height":60,"type":"text","text":""},
+		{"id":"aa784d49f259733e","type":"text","text":"```tracker\nsearchType: task.done\nfolder: /04 - Journaling/01-Daily\nsearchTarget: read\ndatasetName: Journal\nstartDate: 2024-07-01\nmonth:\n```\n\n","x":-1160,"y":-640,"width":440,"height":440},
+		{"id":"eb2145067794d159","type":"text","text":"```tracker\nsearchType: task.done\nfolder: /04 - Journaling/01-Daily\nsearchTarget: read\ndatasetName: Read\nstartDate: 2024-07-01\nmonth:\n```\n\n","x":-1740,"y":-640,"width":440,"height":440}
+	],
+	"edges":[]
+}

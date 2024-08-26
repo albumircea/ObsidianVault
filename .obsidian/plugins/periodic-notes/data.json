@@ -1,0 +1,34 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "folder": "04 - Journaling/01-Daily",
+    "template": "05 - Metadata/Templates/Daily",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "05 - Metadata/Templates/Weekly.md",
+    "folder": "04 - Journaling/02-Weekly",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "05 - Metadata/Templates/Monthly.md",
+    "folder": "04 - Journaling/03-Monthly",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "05 - Metadata/Templates/Quarterly.md",
+    "folder": "04 - Journaling/04-Quarterly",
+    "enabled": true
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": "",
+    "enabled": true
+  }
+}
