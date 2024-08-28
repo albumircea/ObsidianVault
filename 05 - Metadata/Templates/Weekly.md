@@ -3,7 +3,7 @@ moment.locale("ro")
 const thisWeek = window.moment(tp.file.title, "YYYY-[W]WW");
 const previousWeek = thisWeek.clone().subtract(1, 'weeks');
 const nextWeek = thisWeek.clone().add(1, 'weeks');
-const thisMonth = thisWeek.format("YYYY-MM-[M]");
+const thisMonth = thisWeek.format("YYYY-MM");
 const thisQuarter = thisWeek.format("YYYY-[Q]Q");
 const thisYear = thisWeek.format("YYYY-[Y]");
 const startOfWeek = thisWeek.startOf('week').format("DD MMMM YYYY"); 
@@ -18,6 +18,7 @@ tags:
 monthly: <% thisMonth %>
 quarterly: <% thisQuarter %>
 yearly: <% thisYear %>
+aliases:
 ---
 # <% formattedPeriod %>
 
@@ -26,7 +27,7 @@ yearly: <% thisYear %>
 
 
 ```dataview
-Table without id ("[["+file.name+"]]") as "Daily Summaries", actual_RR, potential_RR
+Table without id ("[["+file.name+"]]") as "Daily Summaries", actual_RR, potential_RR, trade_highlight as "Trade Highlights"
 FROM "04 - Journaling/01-Daily"
 WHERE weekly = this.file.name
 SORT file.name ASC

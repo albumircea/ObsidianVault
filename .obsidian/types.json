@@ -35,6 +35,13 @@
     "actual_RR": "number",
     "potential_RR": "number",
     "total_wins": "number",
-    "total_losses": "number"
+    "total_losses": "number",
+    "Category": "multitext",
+    "Subcategory": "multitext",
+    "Rating": "number",
+    "pages": "number",
+    "pages_read": "number",
+    "status": "multitext",
+    "weekly": "text"
   }
 }

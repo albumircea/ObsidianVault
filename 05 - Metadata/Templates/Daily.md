@@ -1,10 +1,10 @@
 <%*
-moment.locale("gb")
+moment.locale("en")
 const thisDay = window.moment(tp.file.title, "YYYY-MM-DD");
 const prevDay = thisDay.clone().subtract(1, 'days');
 const nextDay = thisDay.clone().add(1, 'days');
 const thisWeek = thisDay.format("YYYY-[W]WW");
-const thisMonth = thisDay.format("YYYY-MM-[M]");
+const thisMonth = thisDay.format("YYYY-MM");
 const thisQuarter = thisDay.format("YYYY-[Q]Q");
 const thisYear = thisDay.format("YYYY-[Y]");
 -%>
@@ -22,11 +22,23 @@ actual_RR: 0
 potential_RR: 0
 total_wins: 0
 total_losses: 0
+aliases:
 ---
+
+### [[<% prevDay.format("YYYY-MM-DD") %> |⬅️ Prev Day]] | [[<% nextDay.format("YYYY-MM-DD") %> | Next Day ➡️]] [[<% thisWeek %> | This Week]]
+
 # <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, DD MMMM YYYY") %>
 
- [[<% prevDay.format("YYYY-MM-DD") %> |⬅️ Prev Day]] | [[<% nextDay.format("YYYY-MM-DD") %> | Next Day ➡️]] [[<% thisWeek %> | This Week]]
 
+
+## Tasks
+```dataview
+Table without id ("[["+file.name+"]]") as Calendar , title as "Title", startTime as "Start Time", endTime as "End Time", completed
+FROM "05 - Metadata/Calendar"
+WHERE contains(file.name, this.file.name)
+SORT file.startTime ASC
+```
+<br>
 
 > [!habits]+ Habits
 > - [ ] read [minutes::0]
@@ -49,3 +61,7 @@ total_losses: 0
 
 ## New-York
 ### Trade 1
+
+## Trading Highlights
+
+trade_highlight:: 

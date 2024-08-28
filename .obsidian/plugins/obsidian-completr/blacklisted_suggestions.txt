@@ -28,3 +28,8 @@ star
 Start
 obsidian
 HTF
+actual_RR: #
+card
+asdasd
+LONG
+Long

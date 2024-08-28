@@ -1,0 +1,322 @@
+{
+  "nodes": [
+    {
+      "id": "8a905695f5e1ebf5",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 480,
+      "y": -4720,
+      "width": 2060,
+      "height": 1331,
+      "label": "Untitled group"
+    },
+    {
+      "id": "3869fad5412c47c8",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -1557,
+      "y": -1960,
+      "width": 517,
+      "height": 920,
+      "label": "Backlog"
+    },
+    {
+      "id": "5f700d25bca0c542",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -800,
+      "y": -1960,
+      "width": 517,
+      "height": 920,
+      "label": "InProgress"
+    },
+    {
+      "id": "7858e854bfacae66",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 60,
+      "y": -1960,
+      "width": 517,
+      "height": 920,
+      "label": "Done"
+    },
+    {
+      "id": "7b3f015dbd82567a",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 115,
+      "y": -1300,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "572b0903e7be2506",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 115,
+      "y": -1900,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "4df3560f88bab113",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": 115,
+      "y": -1620,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "a691abd200528c41",
+      "type": "text",
+      "text": "# **TO-DO**\n\n- [/] Fix bugs related to switching timeframes\n- [ ] CHedgeCandles mBreakevenDistance este hardcodat in constructor -> trebe sa il fac parametrizabil\n- [x] GetHLinePrice -> sa mut asta din HedgeBase in Hedge Lines\n- [x] CHange Name of Methods misleading \"BuyLineCreate\" and \"SellLineCreate\" \"AutoManualCreate\"\n- [ ] Change ParameterName for direaction in HedgeBase class 'directioon' is misleading (direaction hedge or direaction batch) ??\n- [ ] Rename hLine Name and Label\n- [ ] Rename BuyUp/Down Sell Uo/Down labelNames -> currently misleading\n- [x] Sa mut functionalitatea din HedgeBase in HedgeLines care nu are treaba cu liniile\n- [ ] Move autoCalculation into HedgeLines (part of it) -> poate nu e cea mai buna idee Trebe sa ma gandesc la asta mai calumea\n- [ ] Tranzitie intre Timeframeuri sa imi persiste linia pe care o seteaza userul [Priority::1]\n- [x] Cand dau ExpertRemove-> se persista starea liniilor dar nu se persista si butoanele (pe auto sau manual)\n- [ ] Refactor SHedgeLines (2 objects instead of 1 with 2 prices ?) [Priority::2]\n- [ ] CheckForCloseHedge asta e hardcodat sa returneze false [Priority::2]\n- [ ] Metoda in care aflu daca sunt sau nu in algoritmul de lacat ar trebui sa fie determinata de faptul daca sunt sau nu sub/deasupra liniei de lacat",
+      "styleAttributes": {},
+      "x": -1520,
+      "y": -2620,
+      "width": 2094,
+      "height": 580
+    },
+    {
+      "id": "61e39b84ac7c7f45",
+      "type": "file",
+      "file": "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Lock Meetings.md",
+      "styleAttributes": {},
+      "x": -1059,
+      "y": -4640,
+      "width": 1225,
+      "height": 994
+    },
+    {
+      "id": "55ea45144f803810",
+      "type": "text",
+      "text": "- Sa testez cand se misca piata\n- Sa testez multiple intrari in lacat\n- Sa schimb TF si sa testez multiple intrari in lacat",
+      "styleAttributes": {},
+      "x": -745,
+      "y": -1900,
+      "width": 402,
+      "height": 198,
+      "color": "3"
+    },
+    {
+      "id": "aa320b2e74415e28",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": -745,
+      "y": -1300,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "56d7379c22704c84",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": -745,
+      "y": -1620,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "da94e5933240e9b9",
+      "type": "text",
+      "text": "Pun SL pe 0 Daca retul se duce pe + X nr de puncte",
+      "styleAttributes": {},
+      "x": -920,
+      "y": -3189,
+      "width": 280,
+      "height": 100
+    },
+    {
+      "id": "db2fd33520c7f93d",
+      "type": "text",
+      "text": "Intru in lacat",
+      "styleAttributes": {},
+      "x": -1404,
+      "y": -2870,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "6c798ec11f3d8a41",
+      "type": "text",
+      "text": "Nu sunt in lacat",
+      "styleAttributes": {},
+      "x": -1404,
+      "y": -3440,
+      "width": 250,
+      "height": 60
+    },
+    {
+      "id": "e3c9c7828e320434",
+      "type": "text",
+      "text": "Nu Mai am nicio referinta la lacat anterior \ndoar linia -> punct referinta",
+      "styleAttributes": {},
+      "x": -1499,
+      "y": -3224,
+      "width": 440,
+      "height": 130,
+      "color": "4"
+    },
+    {
+      "id": "c41c03e90be302f6",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": -1502,
+      "y": -1620,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "bb7b32aa58939190",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": -1502,
+      "y": -1900,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "54325fbeee55eba6",
+      "type": "text",
+      "text": "",
+      "styleAttributes": {},
+      "x": -1502,
+      "y": -1300,
+      "width": 402,
+      "height": 198
+    },
+    {
+      "id": "214b8ad0a6fb97e6",
+      "type": "text",
+      "text": "Daca sunt peste/sub linia de lacat",
+      "styleAttributes": {},
+      "x": -2000,
+      "y": -3219,
+      "width": 439,
+      "height": 60
+    },
+    {
+      "id": "ce8d990573d31297",
+      "type": "file",
+      "file": "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Hedge.md",
+      "styleAttributes": {},
+      "x": -2960,
+      "y": -2640,
+      "width": 1300,
+      "height": 1600
+    },
+    {
+      "id": "0b31648f62516242",
+      "type": "text",
+      "text": "# Smart Invest EA",
+      "styleAttributes": {
+        "border": null
+      },
+      "x": 791,
+      "y": -4640,
+      "width": 460,
+      "height": 180
+    },
+    {
+      "id": "e5646a0d770b41db",
+      "type": "text",
+      "text": "# CandleHedgeEA : HedgeBase\nHedgeCandles <- **HedgeBase**",
+      "styleAttributes": {},
+      "x": 691,
+      "y": -4120,
+      "width": 660,
+      "height": 220
+    },
+    {
+      "id": "9380aef1859fe4d0",
+      "type": "text",
+      "text": "# HedgeLines",
+      "styleAttributes": {},
+      "x": 722,
+      "y": -3620,
+      "width": 598,
+      "height": 149
+    },
+    {
+      "id": "a7a34612f215d15c",
+      "type": "text",
+      "text": "# HedgeState\n\n## This should hold the state of the Hedge object",
+      "styleAttributes": {},
+      "x": 1771,
+      "y": -3900,
+      "width": 520,
+      "height": 220
+    }
+  ],
+  "edges": [
+    {
+      "id": "47ce6f7e1d7ee39c",
+      "fromNode": "214b8ad0a6fb97e6",
+      "fromSide": "bottom",
+      "toNode": "db2fd33520c7f93d",
+      "toSide": "left"
+    },
+    {
+      "id": "6b85e9a190d3ae53",
+      "fromNode": "db2fd33520c7f93d",
+      "fromSide": "right",
+      "toNode": "da94e5933240e9b9",
+      "toSide": "bottom"
+    },
+    {
+      "id": "d3e3e450dbd7a6f4",
+      "fromNode": "da94e5933240e9b9",
+      "fromSide": "top",
+      "toNode": "6c798ec11f3d8a41",
+      "toSide": "right"
+    },
+    {
+      "id": "16ddf9e3794f1a31",
+      "fromNode": "6c798ec11f3d8a41",
+      "fromSide": "left",
+      "toNode": "214b8ad0a6fb97e6",
+      "toSide": "top"
+    },
+    {
+      "id": "4836eb3fc436b363",
+      "fromNode": "0b31648f62516242",
+      "fromSide": "bottom",
+      "toNode": "e5646a0d770b41db",
+      "toSide": "top"
+    },
+    {
+      "id": "9490131c0ea1d2ad",
+      "styleAttributes": {},
+      "fromNode": "e5646a0d770b41db",
+      "fromSide": "bottom",
+      "toNode": "9380aef1859fe4d0",
+      "toSide": "top"
+    },
+    {
+      "id": "092e0c8945f60ba2",
+      "styleAttributes": {},
+      "fromNode": "e5646a0d770b41db",
+      "fromSide": "right",
+      "toNode": "a7a34612f215d15c",
+      "toSide": "left",
+      "label": "ref"
+    },
+    {
+      "id": "15f6870d668d55b6",
+      "styleAttributes": {},
+      "fromNode": "9380aef1859fe4d0",
+      "fromSide": "right",
+      "toNode": "a7a34612f215d15c",
+      "toSide": "left",
+      "label": "ref"
+    }
+  ],
+  "metadata": {}
+}

@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"ef2fe0cb0fe5135d","type":"group","x":-339,"y":-266,"width":400,"height":400,"label":"Untitled group"},
-		{"id":"143a498243f6b8e2","x":-286,"y":-513,"width":250,"height":60,"type":"text","text":""},
-		{"id":"f01193bde0cec9a7","x":160,"y":-200,"width":461,"height":600,"type":"file","file":"07 - Canvas/Queries/HomepageQueries.md","subpath":"#Heading 1"}
-	],
-	"edges":[]
-}

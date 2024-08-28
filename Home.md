@@ -12,37 +12,41 @@ month:
 	 startWeekOn: 'Mon'
 ```
 
-# Personal
+
+Vault Upgrade Tutorials
+
+Daily Notes: [Link](https://www.youtube.com/watch?v=OujrHLGDBFA&list=PL1AUrVDGELNQHG8hPEJcFwCtgEhcNj9MW&index=7) Foarte bun tutorial pentru cum poti sa iei notite si highlighturi
+Cheatsheets for: [dataviewJS, dataview, Others as needed]
+
+
+# Work
 - 🗒️ Notes
 	- `="[[" + dateformat(date(today), "yyyy-MM-dd") + "| Today ]]"`
 	- `="[[" + dateformat(date(today), "yyyy-wW")+"| This Week]]"`
 	- `="[[" + dateformat(date(today), "yyyy-MM")+"| This Month]]"`
-- 👨‍👩‍👦 Objectives
-	- [[Family Recipes]]
-	- [[Family Calendar]]
-	- [[Education Plan]]
-	- [[Yearly Budget]]
-- 🌅 Exotic Vacations 
-	- [[Peru]]
-	- [[Austria]]
-	- [[Texas]]  
-- 🎥 Movies to Watch
-	- [Sleepless in Seattle](https://www.imdb.com/title/tt0108160/)
-	- [Joe vs the Volcano](https://www.imdb.com/title/tt0099892/)
+- 👨‍👩‍👦 Plan
+	- [[Kanban Immediate]]
+	
+- 🌅 Current Projects 
+	- [[Hedge]]
+	- [[Hedge Canvas.canvas|Hedge Canvas]]
 
- # Personal Projects
-- 🏡 Remodeling Projects
+
+
+# Personal Development
+
+
+- 🏡 Learning
 	- [[Bathroom Remodel]]
 	- [[Paint entryway]]
 	- [[Research building Garage]] 
- - ✍️ Writing Projects
-	- [[5 ways to love PKM more]]
-	- Read: [Obisidian core principles](https://tfthacker.medium.com/obsidian-understanding-its-core-design-principles-7f3fafbd6e36)
-- 📚 Learning
-	- [[Early American History]]
-	- [[Spanish - Entry Level]]
+ - ✍️ Reading
+	- [[📚 Books MOC]]
+	- Currently Reading: [[2024-08-26📚 How to Take Smart Notes]]
+- 📚 TODO
+	
 
-# Work
+# Personal Projects
 - 💼 Projects
 	- [[Cloud backup]]
 	- [[Firewall upgrades]]
@@ -66,20 +70,3 @@ month:
 - 〽️ Stats
 	-  File Count: `$=dv.pages().length`
 	-  Personal recipes: `$=dv.pages('"Family/Recipes"').length`
-
-
-
-
-
-[TUTOIRIAL](https://forum.obsidian.md/t/id-like-to-link-to-my-current-weekly-quarteryly-and-yearly-note-on-my-home-page/61276)
-
-
-
-`="[[" + dateformat(date(today), "yyyy-MM-dd") + "|DAILY NOTE ]]"`
-
-
-
-`="[[" + dateformat(date(today), "yyyy-wW")+"| Weekly Note]]"`
-
-`="[[" + dateformat(date(today), "yyyy-MM")+"| This Month]]"`
-

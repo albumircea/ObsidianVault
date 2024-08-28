@@ -2,19 +2,28 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "00 - EntryPoint",
+      "value": "Home",
       "kind": "File",
       "openOnStartup": true,
-      "openMode": "Replace all open notes",
+      "openMode": "Keep open notes",
       "manualOpenMode": "Keep open notes",
-      "view": "Default view",
+      "view": "Reading view",
       "revertView": true,
-      "openWhenEmpty": false,
+      "openWhenEmpty": true,
       "refreshDataview": false,
       "autoCreate": false,
       "autoScroll": false,
-      "pin": false,
-      "commands": [],
+      "pin": true,
+      "commands": [
+        {
+          "id": "periodic-notes:open-daily-note",
+          "period": "Both"
+        },
+        {
+          "id": "obsidian-full-calendar:full-calendar-open",
+          "period": "Both"
+        }
+      ],
       "alwaysApply": false,
       "hideReleaseNotes": false
     }

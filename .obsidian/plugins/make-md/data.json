@@ -44,16 +44,16 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//06 - Miscellaneous/06 - Miscellaneous/Daily Notes",
     "04 - Journaling",
-    "//02 - Software/02 - Software/01-MQL",
-    "//02 - Software/02 - Software/01-MQL/02 - Software/01-MQL/ExpertAdvisors",
-    "//02 - Software/02 - Software/01-MQL/02 - Software/01-MQL/ExpertAdvisors/02 - Software/01-MQL/ExpertAdvisors/Hedge",
-    "//02 - Software/02 - Software/01-MQL/02 - Software/01-MQL/ExpertAdvisors/02 - Software/01-MQL/ExpertAdvisors/SmartInvest",
     "//04 - Journaling/04 - Journaling/Daily",
-    "//04 - Journaling",
-    "//04 - Journaling/04 - Journaling/01-Daily"
+    "//04 - Journaling/04 - Journaling/01-Daily",
+    "/",
+    "02 - Software",
+    "02 - Software/02 - Software/01-MQL",
+    "02 - Software/02 - Software/01-MQL/02 - Software/01-MQL/ExpertAdvisors",
+    "02 - Software/02 - Software/01-MQL/02 - Software/01-MQL/ExpertAdvisors/02 - Software/01-MQL/ExpertAdvisors/00-SmartInvest",
+    "02 - Software/02 - Software/01-MQL/02 - Software/01-MQL/ExpertAdvisors/02 - Software/01-MQL/ExpertAdvisors/01-Hedge"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

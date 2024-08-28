@@ -1,51 +1,91 @@
 {
   "main": {
-    "id": "d16aee5ac831cb07",
+    "id": "628613658545a3dc",
     "type": "split",
     "children": [
       {
-        "id": "f207571fb37458d1",
+        "id": "45deca94385ccef8",
         "type": "tabs",
         "children": [
           {
-            "id": "9edbe74c1e3ca584",
+            "id": "d6e6c97438ad5164",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "aed4b5c239b7f666",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "02c75cccb1155214",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Journaling/01-Daily/2024-08/2024-08-26.md",
+                "file": "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Lock Meetings.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "403ed60944af2be2",
+            "id": "7dd0beb128ad750f",
             "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Hedge Canvas.canvas",
+                "viewState": {
+                  "x": 1649.9664562816508,
+                  "y": -3844.685442838663,
+                  "zoom": -0.9999999999999996
+                }
+              }
+            }
+          },
+          {
+            "id": "ba552f854d8a8203",
+            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 - Journaling/01-Daily/2024-08/2024-08-13.md",
+                "file": "04 - Journaling/01-Daily/2024-08-28.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fa6fb9a50c6055ab",
+    "id": "7b15bd4a3c663ac4",
     "type": "split",
     "children": [
       {
-        "id": "efbfccddc9f0c0a3",
+        "id": "05827fb4bb3233f5",
         "type": "tabs",
         "children": [
           {
-            "id": "5bb6b2a786925aa8",
+            "id": "526f09df3dfbcb95",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,59 +95,58 @@
             }
           },
           {
-            "id": "a17a2df3062b7085",
+            "id": "cc37245b968d7a38",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "724986c1e3d95ec2",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "b9d0bd9f13109a31",
+            "id": "cbf1b48f01b16c1e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {}
             }
+          },
+          {
+            "id": "5eda63c7b060207a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 431.5
   },
   "right": {
-    "id": "ee35888da431d370",
+    "id": "faa0dedab786cc7d",
     "type": "split",
     "children": [
       {
-        "id": "ed4ecb45f0658d28",
+        "id": "a6c8e69fc903814a",
         "type": "tabs",
         "children": [
           {
-            "id": "404bc439cd4395a1",
+            "id": "d7be1c52504b17cf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 - Journaling/01-Daily/2024-08/2024-08-26.md",
-                "collapseAll": true,
+                "file": "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Hedge Canvas.canvas",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -118,19 +157,19 @@
             }
           },
           {
-            "id": "bd8c902e6df891bc",
+            "id": "c0bb2e4fbd2d7493",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 - Journaling/01-Daily/2024-08/2024-08-26.md",
+                "file": "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Hedge Canvas.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "317a6ffba0041df5",
+            "id": "82de4cfa2366e5bf",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,17 +180,17 @@
             }
           },
           {
-            "id": "717423e47f57d94a",
+            "id": "dd2aabe302d368e4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 - Journaling/01-Daily/2024-08/2024-08-26.md"
+                "file": "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Hedge Canvas.canvas"
               }
             }
           },
           {
-            "id": "45603b27b93fe107",
+            "id": "22e5a2af9ce8f76e",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -159,15 +198,7 @@
             }
           },
           {
-            "id": "c51dc3eb7a90ef13",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "eb2afc963161e0b5",
+            "id": "fbd4b23f699ccf12",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -175,21 +206,21 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "zk-prefixer:Create new unique note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
@@ -198,54 +229,59 @@
       "obsidian-kanban:Create new board": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "callout-manager:Insert Callout": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "9edbe74c1e3ca584",
+  "active": "7dd0beb128ad750f",
   "lastOpenFiles": [
-    "04 - Journaling/01-Daily/2024-08/2024-08-13.md",
-    "04 - Journaling/01-Daily/2024-08/2024-08-26.md",
-    "04 - Journaling/01-Daily/2024-08-22.md",
-    "04 - Journaling/02-Weekly/2024-W35.md",
-    "05 - Metadata/Assets/Pasted image 20240825224856.png",
-    "05 - Metadata/Assets/Pasted image 20240825224837.png",
-    "04 - Journaling/01-Daily/2024-08-24.md",
-    "04 - Journaling/02-Weekly/2024-W34.md",
-    "04 - Journaling/02-Weekly/2024-W33.md",
-    "04 - Journaling/02-Weekly/2024-W32.md",
-    "05 - Metadata/Templates/Weekly.md",
-    "04 - Journaling/02-Weekly/2024-W27.md",
-    "04 - Journaling/03-Monthly/2024-07.md",
-    "04 - Journaling/01-Daily/2024-08-19.md",
-    "04 - Journaling/01-Daily/2024-08-23.md",
-    "04 - Journaling/01-Daily/2024-08-21.md",
-    "04 - Journaling/01-Daily/2024-08-20.md",
-    "06 - Miscellaneous/00-Other/00-HowTo.md",
-    "04 - Journaling/01-Daily/2024-08/2024-08-06.md",
-    "04 - Journaling/01-Daily/2024-08/2024-08-07.md",
-    "04 - Journaling/01-Daily/2024-08-25.md",
-    "01 - Maps of Content/NewNote.md",
-    "05 - Metadata/Templates/Daily.md",
-    "2024-08-18.md",
+    "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Lock Meetings.md",
+    "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Hedge Canvas.canvas",
     "Home.md",
-    "05 - Metadata/Scripts/scripts.js",
-    "05 - Metadata/Scripts/Scripts.js",
-    "05 - Metadata/Scripts/New Text Document.txt",
-    "05 - Metadata/Scripts",
-    "05 - Metadata/New folder",
-    "04 - Journaling/01-Daily/2024-08/2024-08-02.md",
-    "04 - Journaling/01-Daily/2024-08/2024-08-01.md",
-    "05 - Metadata/Assets/UBD4WN8scnyX.png",
-    "HomeCanvas.canvas",
-    "04 - Journaling/01-Daily/2024-08",
-    "04 - Journaling/01-Daily/2024-07",
-    "06 - Miscellaneous/00-Other",
-    "Tags/#",
+    "04 - Journaling/01-Daily/2024-08-28.md",
+    "05 - Metadata/Calendar/2024-08-28 YesterdayTrade to Notion.md",
+    "04 - Journaling/01-Daily/2024-08/2024-08-16.md",
+    "04 - Journaling/01-Daily/2024-08-29.md",
+    "Untitled.md",
+    "04 - Journaling/01-Daily/2024-08-27.md",
+    "04 - Journaling/01-Daily/2024-08/2024-08-26.md",
+    "04 - Journaling/02-Weekly/2024-W35.md",
+    "Tags/#mql",
+    "04 - Journaling/01-Daily/2024-08-30.md",
+    "05 - Metadata/Templates/Daily.md",
+    "05 - Metadata/Calendar/2024-08-29 TUNS IONUT POP-SALON.md",
+    "05 - Metadata/Calendar/2024-08-26 Interview.md",
+    "05 - Metadata/Calendar/2024-08-30 Birthday Party.md",
+    "05 - Metadata/Calendar/2024-08-29 TestMeeting.md",
+    "05 - Metadata/Calendar/2024-09-02 Prezentare ProfitPoint Lock.md",
+    "02 - Software/01-MQL/ExpertAdvisors/01-Hedge/Drawing 2024-08-26 16.40.09.excalidraw.md",
+    "04 - Journaling/01-Daily/2024-08/2024-08-19.md",
+    "05 - Metadata/Templates/Weekly.md",
+    "04 - Journaling/01-Daily/2024-07/2024-07-31.md",
+    "04 - Journaling/01-Daily/2024-07/2024-07-30.md",
+    "04 - Journaling/01-Daily/2024-07/2024-07-29.md",
+    "04 - Journaling/01-Daily/2024-07/2024-07-22.md",
+    "04 - Journaling/01-Daily/2024-07/2024-07-23.md",
+    "05 - Metadata/Cheatsheets",
+    "Tags/#trade",
     "Tags/#stocks",
-    "02 - Software/01-MQL/ExpertAdvisors/Hedge/Hedge Canvas.canvas",
-    "07 - Canvas/Untitled.canvas",
-    "04 - Journaling/01-Daily/Untitled.canvas",
-    "jx7hHGexejpp.png",
-    "Untitled 1.canvas"
+    "Tags/#crypto",
+    "Tags",
+    "02 - Software/03-Leetcode/Untitled.canvas",
+    "05 - Metadata/Other",
+    "05 - Metadata/Miscellaneous",
+    "01 - Sources/01-Courses",
+    "02 - Software/04-Architecture",
+    "HomeCanvas.canvas",
+    "05 - Metadata/Other/Canvas/Untitled.canvas",
+    "05 - Metadata/Assets/Pasted image 20240825224856.png",
+    "05 - Metadata/Assets/UBD4WN8scnyX.png",
+    "05 - Metadata/Assets/Pasted image 20240825224837.png",
+    "ObsidianVault/HomeCanvas.canvas",
+    "ObsidianVault/07 - Canvas/Untitled.canvas",
+    "ObsidianVault/05 - Metadata/Assets/UBD4WN8scnyX.png",
+    "ObsidianVault/05 - Metadata/Assets/Pasted image 20240825224856.png",
+    "ObsidianVault/05 - Metadata/Assets/Pasted image 20240825224837.png",
+    "ObsidianVault/02 - Software/01-MQL/ExpertAdvisors/Hedge/Hedge Canvas.canvas"
   ]
 }

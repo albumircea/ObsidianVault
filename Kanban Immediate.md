@@ -6,18 +6,13 @@ kanban-plugin: board
 
 ## Queue
 
-
-
-## Week todo
-
 - [ ] Weekly todo ^o70kr7
+- [ ] 2 Hours BackTesting
 - [ ] 6 Hours BackTesting
-- [ ] Porneste Passatu
 
 
 ## Today's Tasks
 
-- [ ] 2 Hours BackTesting
 
 
 ## InProgress
@@ -27,12 +22,14 @@ kanban-plugin: board
 
 ## Done
 
+- [x] 12:00 Interview
+- [x] Porneste Passatu
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false,false],"show-checkboxes":true,"full-list-lane-width":true}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false],"show-checkboxes":true,"full-list-lane-width":true}
 ```
 %%
